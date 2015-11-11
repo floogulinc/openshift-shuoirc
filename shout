@@ -1,1 +1,0 @@
-node $OPENSHIFT_DATA_DIR/shout/index --home $OPENSHIFT_DATA_DIR/store $* 

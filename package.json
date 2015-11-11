@@ -1,18 +1,13 @@
 {
-  "name": "OpenShift-ShoutIRC",
+  "name": "OpenShift-ShuoIRC",
   "version": "1.0.0",
-  "description": "OpenShift Shout IRC",
-  "author": {
-    "name": "Jean-Philippe Légaré <Kornagan>",
-    "email": "contact@kornagan.com",
-    "url": "http://www.kornagan.com/"
-  },
+  "description": "OpenShift Shuo IRC",
   "scripts": {
-    "start": "./shout --private --host $OPENSHIFT_NODEJS_IP --port $OPENSHIFT_NODEJS_PORT"
+    "start": "./shuo --host $OPENSHIFT_NODEJS_IP --port $OPENSHIFT_NODEJS_PORT"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Kornagan/openshift-shoutirc"
+    "url": "https://github.com/floogulinc/openshift-shuoirc"
   },
   "engines": {
     "node": ">= 0.6.0",
