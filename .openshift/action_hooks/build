@@ -1,4 +1,4 @@
-if [ ! -d $OPENSHIFT_DATA_DIR/node-modules/shuo ]; then
+if [ ! -d $OPENSHIFT_DATA_DIR/node_modules/shuo ]; then
   cd $OPENSHIFT_DATA_DIR
   npm install shuo
 fi
