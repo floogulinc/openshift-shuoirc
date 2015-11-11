@@ -1,1 +1,1 @@
-node $OPENSHIFT_DATA_DIR/shuo/index --home $OPENSHIFT_DATA_DIR/store $* 
+node $OPENSHIFT_DATA_DIR/node-modules/shuo/index --home $OPENSHIFT_DATA_DIR/store $* 

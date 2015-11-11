@@ -10,6 +10,6 @@ if [ ! -d $OPENSHIFT_DATA_DIR/store ]; then
   mkdir store
   mkdir store/users
   cp $OPENSHIFT_REPO_DIR/user.json store/users/default.json
-  echo 'Please run ./shout add <username> from the repo directory to access Shuo'
+  echo 'Please run ./shuo add <username> from the repo directory to access Shuo'
   echo '-------------------------'
 fi
